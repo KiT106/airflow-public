@@ -26,7 +26,7 @@ run_this_last = DummyOperator(
 # [START howto_operator_bash]
 run_this = BashOperator(
     task_id='run_after_loop',
-    bash_command='echo 1',
+    bash_command='echo Hello world',
     dag=dag,
 )
 # [END howto_operator_bash]
